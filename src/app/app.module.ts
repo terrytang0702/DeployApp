@@ -17,16 +17,16 @@ export class MyErrorHandler implements ErrorHandler {
   constructor(injector: Injector) {
     try {
       this.ionicErrorHandler = injector.get(IonicErrorHandler);  
-       //   alert("constructor try");
+     //    alert("constructor try");
     } catch(e) {
-      //alert("error:"+e);
+    //  alert("error:"+e);
       // Unable to get the IonicErrorHandler provider, ensure
       // IonicErrorHandler has been added to the providers list below
     }
   }
 
   handleError(err: any): void {
-    //alert("err:"+err);
+   // alert("err:"+err);
     Pro.monitoring.handleNewError(err);
     // Remove this if you want to disable Ionic's auto exception handling
     // in development mode.
