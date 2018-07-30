@@ -1,0 +1,7 @@
+{
+  "name": "DeployApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
