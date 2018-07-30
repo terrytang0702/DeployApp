@@ -52,13 +52,12 @@
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-ionic": {
-        "APP_ID": "001a6282",
+        "APP_ID": "2066f7b9",
         "CHANNEL_NAME": "Production",
         "UPDATE_METHOD": "auto",
         "WARN_DEBUG": "false",
         "UPDATE_API": "https://api.ionicjs.com",
-        "MAX_STORE": "0",
-        "MIN_BACKGROUND_DURATION": "30"
+        "MAX_STORE": "0"
       }
     },
     "platforms": [

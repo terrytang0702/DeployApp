@@ -6,7 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { Pro } from '@ionic/pro';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-Pro.init('001a6282', {
+Pro.init('2066f7b9', {
   appVersion: '0.0.1'
 })
 
